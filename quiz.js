@@ -9,7 +9,7 @@ function checkAnswer(){
     let feedback = document.querySelector('#feedback');
 
     // comparing users answe with the correct one
-    if (correctAnswer === userAnswer){
+    if (userAnswer === correctAnswer){
         feedback.textContent = 'Correct! Well done.';
         feedback.style.color = 'green';
     } 
